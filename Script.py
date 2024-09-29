@@ -1,22 +1,22 @@
 class script(object):
-    START_TXT = """<b><i>𝙷𝙴𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍</b></i>"""
-    HELP_TXT = """<b>𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.</b>"""
-    ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Mrz_bots>Creator</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]</b>"""
+    START_TXT = """<b><i>Heyy There! {},
+I am a User-Friendly Bot Used To Provide Files Of Any Movies/Series & Anime :) </b></i>"""
+    HELP_TXT = """<b>Hey {}
+These Are My Additional Plug-ins. </b>"""
+    ABOUT_TXT = """<b>✯ Name: {}
+✯ Owned By: <a href=https://t.me/ExaBots>ExaBots</a>
+✯ LIBRARY: PYROGRAM
+✯ LANGUAGE: PYTHON 3
+✯ DATABASE: MONGO DB
+✯ BOT SERVER: VPS
+✯ BUILD STATUS: v1.0.1 [ Stable ]</b>"""
     SOURCE_TXT = """<b>NOTE:</b>
-- Tᴏɴʏ Sᴛᴀʀᴋ Is Oᴘᴇɴ Pʀᴏᴊᴇᴄᴛ. 
-- Sᴏᴜʀᴄᴇ  - https://github.com/Mrzbots/AutoFilterBot  
+- Confidential Project. Contact Owner For Source Code.  
+- Contact - @BigGunDaddy  
 
-<b>DEVS:</b>
-- <a href=https://t.me/Mrz_bots>Creator</a>"""
-    TELEGRAPH = """Reply to any photo or video using by /telegraph that photo telegraph link you will get"""
+<b>Developers:</b>
+- <a href=https://t.me/ExaBots>ExaBots</a>"""
+    TELEGRAPH = """Reply to any photo or video using by /telegraph to get the link."""
     TOOLS = """TOOLS:
 
 /news - {text}
@@ -46,12 +46,12 @@ Bʏ ᴜsɪɴɢ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ.
 Yᴏᴜ ᴄᴀɴ ʀᴇᴍᴏᴠᴇ ᴛʜᴇᴍ ʙʏ ᴀᴅᴍɪɴ ᴜsɪɴɢ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ /demote</b>"""
     IMG = """ You Can Serch Image Using This command /img
 Example: <code> /image Tony stark </code>"""
-    FONT_TXT = """ ᴛᴏ ᴜsᴇ ᴛʜɪs ғᴜɴᴄᴛɪᴏɴ
+    FONT_TXT = """ To Use This Function
 
 /font {your_text}
 
 ᴇɢ:- /font Hello """
-    STICKER = """ yᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ᴍᴏᴅᴜʟᴇ ᴛᴏ ꜰɪɴᴅᴀɴy  ꜱᴛɪᴄᴋᴇʀꜱ ɪᴅ.
+    STICKER = """ Use This Plug-In to Find Stickers!.
 • ᴜꜱᴀɢᴇ :ᴛᴏ ɢᴇᴛ ꜱᴛɪᴄᴋᴇʀ
  
 ⭕ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ
@@ -60,10 +60,9 @@ Example: <code> /image Tony stark </code>"""
 Translate text to speech
 Commands and Usage:
 • /tts  : convert text to speech"""
-    BUG_TXT = """Yᴏᴜ ᴄᴀɴ ʀᴇᴘᴏʀᴛ ᴇʀʀᴏʀs ᴀɴᴅ ʙᴜɢs ᴡɪᴛʜ ᴛʜᴇ ʙᴏᴛ 
-ᴜsɪɴɢ ʙʏ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ /bug """
-    FEED = """Iғ Yᴏᴜ Wᴀɴᴛ Aɴʏ Fᴇᴇᴅʙᴀᴄᴋ ᴏʀ Aɴʏ Fᴇᴄᴛᴜʀᴇs Aʙᴏᴜᴛ Tʜᴇ Bᴏᴛ, 
-Jᴜsᴛ Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ /feedback"""
+    BUG_TXT = """Report Any Bugs or Issues With The Code By /bug Command. """
+    FEED = """Use /feedback To Give Feedback Or Any Improvments To The Bot. 
+"""
     AI = """AI
 /openai {query}
 """
@@ -73,11 +72,8 @@ Jᴜsᴛ Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ /feedback"""
 /dare - [message]
 /joke - [message]
 """
-    ECHO = """ Tʜɪs ғᴇᴄᴛᴜʀᴇ ɪs ᴠᴇʀʏ ɪɴᴛᴇʀᴇsᴛɪɴɢ ᴀɴᴅ ғᴜɴɴʏ 
+    ECHO = """ A Random Plug-In Added For Fun.
 
- Tʜᴇ MEMBERS ᴏғ ʏᴏᴜʀ ɢʀᴏᴜᴘ ʀᴇᴘʟʏ ᴛᴇxᴛ
-
- Tʜᴀᴛ ᴡɪʟʟ sʜᴏᴡ ᴛʜᴀᴛ ᴍᴇssᴀɢᴇ ʀᴇᴘʟʏᴇᴅ ᴀɴᴅ ᴛʜᴇɴ ᴏᴜʀ ᴍᴇssᴀɢᴇ ᴅᴇʟᴇᴛᴇ ᴡɪʟʟ 
  /echo {text}
  """
     MANUELFILTER_TXT = """Help: <b>Filters</b>
@@ -95,7 +91,7 @@ Jᴜsᴛ Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ /feedback"""
 • /del - <code>delete a specific filter in chat</code>
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
 
-    ENHANCE = """ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴘʜᴏᴛᴏ ᴜsɪɴɢ ʙʏ /enhance ᴀɴᴅ ᴛʜᴀᴛ ᴘʜᴏᴛᴏ ᴡɪʟʟ ᴇɴʜᴀɴᴄᴇᴅ"""
+    ENHANCE = """Reply To A Photo To Enhance That Photo!"""
     CARBON = """HELP: Carbon
 
 Beautify your code using carbon!
@@ -123,11 +119,11 @@ USAGE:
 2. make sure that your channel does not contains camrips, porn and fake files.
 3. Forward the last message to me with quotes.
  I'll add all the files in that channel to my db."""
-    PONG_TXT = """ ᴘɪɴɢ ᴛᴇꜱᴛɪɴɢ:ʜᴇʟᴘꜱ ʏᴏᴜ ᴛᴏ ᴋɴᴏᴡ ʏᴏᴜʀ ᴘɪɴɢ🪄
+    PONG_TXT = """ For Testing Bot PING!
 
 ᴄᴏᴍᴍᴀɴᴅꜱ:
-• /alive - ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜ ᴀʀᴇ ᴀʟɪᴠᴇ.
-• /ping - ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴘɪɴɢ.
+• /alive - To Check Bot Status.
+• /ping - To Check Bot Ping.
 
 ᴜꜱᴀɢᴇ :
 • ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅꜱ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ɪɴ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘꜱ
@@ -136,7 +132,7 @@ USAGE:
     PIN_TXT = """ ᴩɪɴ ᴍᴏᴅᴜʟᴇ
 ᴩɪɴ ᴀ ᴍᴇꜱꜱᴀɢᴇ...
 
-ᴀʟʟ ᴛʜᴇ ᴩɪɴ ʀᴇᴩʟᴀᴛᴇᴅ ᴄᴏᴍᴍᴀɴᴅꜱ ᴄᴀɴ ʙᴇ ꜰᴏᴜɴᴅ ʜᴇʀᴇ:
+Pin Related Commands Found Here! :)
 
 📌ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ᴜꜱᴀɢᴇ📌
 
@@ -156,10 +152,11 @@ IMDb Data:
 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10</b>"""
 
     FLTERS_TXT = """
-<b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
+<b>Heyy {}, These Are My Typed Of Filters.</b>"""
     
     FILE_STORE_TXT = """
-<b>Fɪʟᴇ sᴛᴏʀᴇ ɪs ᴛʜᴇ ғᴇᴀᴛᴜʀᴇ ᴡʜɪᴄʜ ᴡɪʟʟ ᴄʀᴇᴀᴛᴇ ᴀ sʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ ᴏғ ᴀ sɪɴɢʟᴇ ᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ғɪʟᴇs.</b>
+<b>File Store Is The Feature Which Will Create A Shareable Link Of A Single Or Multiple Files.
+</b>
 
 Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 • /batch - <code>Tᴏ ᴄʀᴇᴀᴛᴇ ᴀ ʙᴀᴛᴄʜ ʟɪɴᴋ ᴏғ ᴍᴜʟᴛɪᴘʟᴇ ғɪʟᴇs.</code>
@@ -189,22 +186,23 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 • /disconnect  - <code>disconnect from a chat</code>
 • /connections - <code>list all your connections</code>"""
     RENDERING_TXT = """
-⚡️ʟɪᴠᴇ sʏsᴛᴇᴍ sᴛᴀᴛᴜs ⚡️
+ʟɪᴠᴇ sʏsᴛᴇᴍ sᴛᴀᴛᴜs 
 
-❂ ʀᴀᴍ ●●●●●●●◌◌◌
-✇ ᴄᴘᴜ ●●●●●●●◌◌◌
-✪ ᴅᴀᴛᴀ ᴛʀᴀꜰɪᴄs ●●●●◌◌◌◌◌◌ 🛰
+❂ RAM ●●●●●●●◌◌◌
+✇ CPU ●●●●●●●◌◌◌
+✪ DATA TRAFFIC ●●●●◌◌◌◌◌◌ 🛰
 
 ᴠ2.7.1 [sᴛᴀʙʟᴇ] """
-    DICS_TXT = """ <b><code>ᴛʜɪꜱ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
+    DICS_TXT = """ <b><code>This is A Private Project.
 
-ᴀʟʟ ᴛʜᴇ ꜰɪʟᴇꜱ ɪɴ ᴛʜɪꜱ ʙᴏᴛ ᴀʀᴇ ꜰʀᴇᴇʟʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛʜᴇ ɪɴᴛᴇʀɴᴇᴛ ᴏʀ ᴘᴏꜱᴛᴇᴅ ʙʏ ꜱᴏᴍᴇʙᴏᴅʏ ᴇʟꜱᴇ. 
-ᴊᴜꜱᴛ ꜰᴏʀ ᴇᴀꜱʏ ꜱᴇᴀʀᴄʜɪɴɢ ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ɪɴᴅᴇxɪɴɢꜰɪʟᴇꜱ ᴡʜɪᴄʜ ᴀʀᴇ ᴀʟʀᴇᴀᴅʏ ᴜᴘʟᴏᴀᴅᴇᴅ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ. 
-ᴡᴇ ʀᴇꜱᴘᴇᴄᴛ ᴀʟʟ ᴛʜᴇ ᴄᴏᴘʏʀɪɢʜᴛ ʟᴀᴡꜱ ᴀɴᴅ ᴡᴏʀᴋꜱ ɪɴ ᴄᴏᴍᴘʟɪᴀɴᴄᴇ ᴡɪᴛʜ ᴅᴍᴄᴀ ᴀɴᴅ ᴇᴜᴄᴅ. 
-ɪꜰ ᴀɴʏᴛʜɪɴɢ ɪꜱ ᴀɢᴀɪɴꜱᴛ ʟᴀᴡ ᴘʟᴇᴀꜱᴇ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ꜱᴏ ᴛʜᴀᴛ ɪᴛ ᴄᴀɴ ʙᴇ ʀᴇᴍᴏᴠᴇᴅ ᴀꜱᴀᴘ. 
-ɪᴛ ɪꜱ ꜰᴏʀʙɪʙʙᴇɴ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ, ꜱᴛʀᴇᴀᴍ, ʀᴇᴘʀᴏᴅᴜᴄᴇ, ᴏʀ ʙʏ ᴀɴʏ ᴍᴇᴀɴꜱ, ꜱʜᴀʀᴇ, ᴏʀ ᴄᴏɴꜱᴜᴍᴇ, ᴄᴏɴᴛᴇɴᴛ ᴡɪᴛʜᴏᴜᴛ ᴇxᴘʟɪᴄɪᴛ ᴘᴇʀᴍɪꜱꜱɪᴏɴ ꜰʀᴏᴍ ᴛʜᴇ ᴄᴏɴᴛᴇɴᴛ ᴄʀᴇᴀᴛᴏʀ ᴏʀ ʟᴇɢᴀʟ ᴄᴏᴘʏʀɪɢʜᴛ ʜᴏʟᴅᴇʀ. 
-ɪꜰ ʏᴏᴜ ʙᴇʟɪᴇᴠᴇ ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴠɪᴏʟᴀᴛɪɴɢ ʏᴏᴜʀ ɪɴᴛᴇʟʟᴇᴄᴛᴜᴀʟ ᴘʀᴏᴘᴇʀᴛʏ, ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ʀᴇꜱᴘᴇᴄᴛɪᴠᴇ ᴄʜᴀɴɴᴇʟꜱ ꜰᴏʀ ʀᴇᴍᴏᴠᴀʟ. 
-ᴛʜᴇ ʙᴏᴛ ᴅᴏᴇꜱ ɴᴏᴛ ᴏᴡɴ ᴀɴʏ ᴏꜰ ᴛʜᴇꜱᴇ ᴄᴏɴᴛᴇɴᴛꜱ, ɪᴛ ᴏɴʟʏ ɪɴᴅᴇx ᴛʜᴇ ꜰɪʟᴇꜱ ꜰʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ. </code> """
+All The Files In This Bot Are Freely Available On The Internet Or Posted By Somebody Else. 
+Just For Easy Searching This Bot Is Indexing Files Which Are Already Uploaded On Telegram. 
+We Respect All The Copyright Laws And Works In Compliance With DMCA And EUCD. 
+If Anything Is Against Law Please Contact Me So That It Can Be Removed ASAP. 
+It Is Forbidden To Download, Stream, Reproduce, Or By Any Means, Share, Or Consume, Content Without Explicit Permission From The Content Creator Or Legal Copyright Holder. 
+If You Believe This Bot Is Violating Your Intellectual Property, Contact The Respecting Channels For Removal. 
+The Bot Does Not Own Any Of These Contents, It Only Index The Files From Telegram.
+ </code> """
 
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
@@ -238,16 +236,16 @@ This module only works for my admins
 • /sh - <code>install package or other use and code run</code>
 • /restart - <code>restart the bot</code>
 """
-    ALRT_TXT = """Hᴇʟʟᴏ {},
+    ALRT_TXT = """HELLO! {},
 
-Tʜɪs ɪs ɴᴏᴛ ʏᴏᴜʀ ʀᴇϙᴜᴇsᴛ.
-Rᴇϙᴜᴇsᴛ ʏᴏᴜʀsᴇʟғ...!!"""
+This Isn't Your Request!
+Request Yourself :)"""
 
     OLD_ALRT_TXT = """Hey {},
 You are using one of old message,
 Request Again"""
 
-    CUDNT_FND = """<b>I ᴄᴏᴜʟᴅɴ'ᴛ ғɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜᴀᴛ. Dɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏɴᴇ ᴏғ ᴛʜᴇsᴇ?</b>"""
+    CUDNT_FND = """<b>I Couldn't Find Anything Related To That. Did You Mean Any One Of These?</b>"""
 
     I_CUDNT = """<b>I ᴄᴏᴜʟᴅɴ'ᴛ ғɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜᴀᴛ.</b>"""
 
@@ -255,7 +253,7 @@ Request Again"""
 
     MVE_NT_FND = """<b>I ᴄᴏᴜʟᴅɴ'ᴛ ғɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜᴀᴛ.</b>"""
 
-    TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ ғᴏʀ ϙᴜᴇʀʏ ɪɴ Dᴀᴛᴀʙᴀsᴇ """
+    TOP_ALRT_MSG = """Checking For Query In Database:) """
     
     NORSLTS = """
 #NoResults 
@@ -266,11 +264,11 @@ Name <b>: {}</b>
 
 Message <b>: {}</b>"""
     
-    STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
-★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
-★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
+    STATUS_TXT = """★ Total Files: <code>{}</code>
+★ Total Users: <code>{}</code>
+★ Total Chats: <code>{}</code>
+★ Database Storage: <code>{}</code> MiB
+★ Database Free Space: <code>{}</code> Mi"""
     NORSLTS = """★ #𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀 ★
 𝗜𝗗 <b>: {}</b>
 𝗡𝗮𝗺𝗲 <b>: {}</b>
