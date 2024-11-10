@@ -89,14 +89,11 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('〆 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('Add Bot To Your Group', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('• Sᴇᴀʀᴄʜ •', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('• Uᴘᴅᴀᴛᴇ •', url=UPDATE_CHANNEL)
-            ],[
-            InlineKeyboardButton('• Hᴇʟᴘ •', callback_data='help'),
-            InlineKeyboardButton('• Aʙᴏᴜᴛ •', callback_data='about')
-        ]]
+            InlineKeyboardButton('Search 🔎', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('Request Group', url=t.me/MoviesExa)
+            ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -245,7 +242,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('• Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ •', url=UPDATE_CHANNEL) ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('Request Group', url=t.me/MoviesExa) ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
