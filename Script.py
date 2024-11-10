@@ -1,6 +1,6 @@
 class script(object):
-    START_TXT = """<b><i>Heyy There! {},
-I am a User-Friendly Bot Used To Provide Files Of Any Movies/Series & Anime :) </b></i>"""
+    START_TXT = """<b>Heyy There! {},
+A Bot Which Provides Files Of Any Movies/Series & Anime. Join My Group And Send Me Your Required File Name :)</b>"""
     HELP_TXT = """<b>Hey {}
 These Are My Additional Plug-ins. </b>"""
     ABOUT_TXT = """<b>✯ Name: {}
